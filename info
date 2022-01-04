@@ -1,0 +1,12 @@
+keystore : /Users/vincentchann/Desktop/twa/bowo_keystore.jks
+alias : bowo_pwa
+password : bowobowo
+password : bowobowo
+
+logo : https://pbs.twimg.com/profile_images/1144614464295251968/CcTTR0Gk_400x400.png
+Application ID: lebarmas.bowo.app
+
+Work
+
+bubblewrap init --manifest=https://www.bowohq.com/pwa/generic/lebarmas.manifest.json
+bubblewrap build
