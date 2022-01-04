@@ -19,17 +19,17 @@ import groovy.xml.MarkupBuilder
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'lebarmas.bowo.app',
-    hostName: 'lebarmas.bowo.app', // The domain being opened in the TWA.
+    applicationId: 'bw.bowo.app',
+    hostName: 'bw.bowo.app', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'Le Bar du Casino Dieppe', // The application name.
-    launcherName: 'CasinoDieppe', // The name shown on the Android Launcher.
-    themeColor: '#0091C2', // The color used for the status bar.
+    name: 'bw', // The application name.
+    launcherName: 'bw', // The name shown on the Android Launcher.
+    themeColor: '#FFFFF', // The color used for the status bar.
     navigationColor: '#000000', // The color used for the navigation bar.
     navigationColorDark: '#000000', // The color used for the dark navbar.
     navigationDividerColor: '#000000', // The navbar divider color.
     navigationDividerColorDark: '#000000', // The dark navbar divider color.
-    backgroundColor: '#0091C2', // The color used for the splash screen background.
+    backgroundColor: '#FFFFFF', // The color used for the splash screen background.
     enableNotifications: true, // Set to true to enable notification delegation.
     // Every shortcut must include the following fields:
     // - name: String that will show up in the shortcut.
@@ -50,7 +50,7 @@ def twaManifest = [
 android {
     compileSdkVersion 30
     defaultConfig {
-        applicationId "lebarmas.bowo.app"
+        applicationId "bw.bowo.app"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 3
